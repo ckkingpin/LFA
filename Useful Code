@@ -1,0 +1,7 @@
+Useful Command Lines
+
+git init > initialises project to git
+git add . > adds current project to respirotory
+git status > provides current status of files on respirotory
+git commit -m "Initial commit" > saves all unsaved files to the respirotory
+git log > shows all commit logs for the particular project
