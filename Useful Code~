@@ -7,3 +7,9 @@ git commit -m "Initial commit" > saves all unsaved files to the respirotory
 git log > shows all commit logs for the particular project
 
 git push > pushes to the servers
+
+git merge upstream/master
+
+git fetch upstream
+git checkout master
+
