@@ -1,3 +1,8 @@
 %h1 Welcome To The LFA Site
 
+@article.each do |article|
+%h2 article.title
+%p Published at
+
+
 = link_to "New Article", new_article_path

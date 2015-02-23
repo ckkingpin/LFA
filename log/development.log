@@ -756,3 +756,621 @@ Started GET "/" for 127.0.0.1 at 2015-02-23 14:51:56 +0000
 Processing by ArticlesController#index as HTML
   Rendered articles/index.html.haml within layouts/application (2.6ms)
 Completed 200 OK in 118ms (Views: 116.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/article/1" for 127.0.0.1 at 2015-02-23 15:30:00 +0000
+
+ActionController::RoutingError (No route matches [GET] "/article/1"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/clive/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/clive/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/clive/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (2.8ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (21.3ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.1ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (111.4ms)
+
+
+Started GET "/article/1" for 127.0.0.1 at 2015-02-23 15:32:20 +0000
+
+ActionController::RoutingError (No route matches [GET] "/article/1"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/clive/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/clive/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/clive/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (2.6ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (2.7ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.9ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (59.1ms)
+
+
+Started GET "/article/1" for 127.0.0.1 at 2015-02-23 15:45:28 +0000
+
+ActionController::RoutingError (No route matches [GET] "/article/1"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/clive/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/clive/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/clive/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (2.2ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (2.7ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.0ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (59.0ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2015-02-23 15:45:33 +0000
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mArticle Load (0.4ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", 1]]
+Completed 404 Not Found in 88ms
+
+ActiveRecord::RecordNotFound (Couldn't find Article with 'id'=1):
+  app/controllers/articles_controller.rb:26:in `find_article'
+
+
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (13.5ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (9.3ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.0ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (73.3ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2015-02-23 15:45:39 +0000
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 404 Not Found in 3ms
+
+ActiveRecord::RecordNotFound (Couldn't find Article with 'id'=1):
+  app/controllers/articles_controller.rb:26:in `find_article'
+
+
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (12.2ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (5.4ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.1ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (54.9ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2015-02-23 15:50:58 +0000
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 4ms
+
+NameError (uninitialized constant ArticlesController::Articles):
+  app/controllers/articles_controller.rb:26:in `find_article'
+
+
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (12.0ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (5.3ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.1ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (54.8ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2015-02-23 15:51:17 +0000
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mArticle Load (0.3ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", 1]]
+Completed 404 Not Found in 8ms
+
+ActiveRecord::RecordNotFound (Couldn't find Article with 'id'=1):
+  app/controllers/articles_controller.rb:26:in `find_article'
+
+
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (12.4ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (5.7ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.2ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (56.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-23 15:52:10 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.3ms)[0m  [1mSELECT "articles".* FROM "articles"  ORDER BY created_at DESC[0m
+  Rendered articles/index.html.haml within layouts/application (26.7ms)
+Completed 500 Internal Server Error in 46ms
+
+ActionView::Template::Error (undefined local variable or method `article' for #<#<Class:0x007f6e9d28dbe8>:0x007f6e9ce85cd0>):
+    1: %h1 Welcome To The LFA Site
+    2: 
+    3: @article.each do |article|
+    4: %h2= article.title
+    5: %p= Published at
+    6: = article.created_at.strftime('%b %d, %Y')
+    7: 
+  app/views/articles/index.html.haml:4:in `_app_views_articles_index_html_haml__2385892682198171739_70056527765160'
+
+
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (16.1ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (6.9ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.3ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (60.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-23 15:53:01 +0000
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.3ms)[0m  SELECT "articles".* FROM "articles"  ORDER BY created_at DESC
+  Rendered articles/index.html.haml within layouts/application (27.7ms)
+Completed 500 Internal Server Error in 34ms
+
+ActionView::Template::Error (undefined local variable or method `article' for #<#<Class:0x007f6e9d28dbe8>:0x007f6e9d791540>):
+    3: @article.each do |article|
+    4: %h2 = article.title
+    5: %p = Published at
+    6: = article.created_at.strftime('%b %d, %Y')
+    7: 
+    8: = link_to "New Article", new_article_path
+  app/views/articles/index.html.haml:6:in `_app_views_articles_index_html_haml__2385892682198171739_70056532540300'
+
+
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (16.1ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (7.3ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.1ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (60.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-23 15:53:41 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.5ms)[0m  [1mSELECT "articles".* FROM "articles"  ORDER BY created_at DESC[0m
+  Rendered articles/index.html.haml within layouts/application (28.5ms)
+Completed 500 Internal Server Error in 35ms
+
+ActionView::Template::Error (undefined local variable or method `article' for #<#<Class:0x007f6e9d28dbe8>:0x007f6e9d6cd230>):
+    3: @article.each do |article|
+    4: %h2 = article.title
+    5: %p = Published at
+    6: = article.created_at.strftime('b d, Y')
+    7: 
+    8: = link_to "New Article", new_article_path
+  app/views/articles/index.html.haml:6:in `_app_views_articles_index_html_haml__2385892682198171739_70056532138040'
+
+
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (16.0ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (6.7ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.3ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (60.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-23 15:53:58 +0000
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.3ms)[0m  SELECT "articles".* FROM "articles"  ORDER BY created_at DESC
+  Rendered articles/index.html.haml within layouts/application (29.9ms)
+Completed 500 Internal Server Error in 37ms
+
+ActionView::Template::Error (undefined local variable or method `article' for #<#<Class:0x007f6e9d28dbe8>:0x007f6e9c998b00>):
+    3: @article.each do |article|
+    4: %h2 = article.title
+    5: %p = Published at
+    6: = article.created_at.strftime
+    7: 
+    8: = link_to "New Article", new_article_path
+  app/views/articles/index.html.haml:6:in `_app_views_articles_index_html_haml__2385892682198171739_70056525190560'
+
+
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (15.8ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (8.2ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.0ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (61.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-23 15:54:17 +0000
+Processing by ArticlesController#index as HTML
+  Rendered articles/index.html.haml within layouts/application (2.2ms)
+Completed 200 OK in 138ms (Views: 135.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-23 15:54:17 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-23 15:54:17 +0000
+
+
+Started GET "/assets/application-3fcb74b2a407843511ec971fdb2fd112.css?body=1" for 127.0.0.1 at 2015-02-23 15:54:17 +0000
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-02-23 15:54:17 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-23 15:54:17 +0000
+
+
+Started GET "/assets/articles-46c9a194bd0668e67d57241f94473dc8.js?body=1" for 127.0.0.1 at 2015-02-23 15:54:17 +0000
+
+
+Started GET "/assets/application-584e5ad092e1f250bb0d63bf12639a0e.js?body=1" for 127.0.0.1 at 2015-02-23 15:54:17 +0000
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-02-23 15:54:25 +0000
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.haml (3.0ms)
+  Rendered articles/new.html.haml within layouts/application (9.2ms)
+Completed 200 OK in 159ms (Views: 153.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-23 15:54:31 +0000
+Processing by ArticlesController#index as HTML
+  Rendered articles/index.html.haml within layouts/application (2.4ms)
+Completed 200 OK in 135ms (Views: 134.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-02-23 15:54:34 +0000
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.haml (0.3ms)
+  Rendered articles/new.html.haml within layouts/application (3.3ms)
+Completed 200 OK in 129ms (Views: 127.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-23 15:54:50 +0000
+Processing by ArticlesController#index as HTML
+  Rendered articles/index.html.haml within layouts/application (1.5ms)
+Completed 200 OK in 135ms (Views: 134.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-02-23 15:54:52 +0000
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.haml (0.5ms)
+  Rendered articles/new.html.haml within layouts/application (3.8ms)
+Completed 200 OK in 126ms (Views: 125.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-23 15:56:50 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.4ms)[0m  [1mSELECT "articles".* FROM "articles"  ORDER BY created_at DESC[0m
+  Rendered articles/index.html.haml within layouts/application (32.1ms)
+Completed 500 Internal Server Error in 39ms
+
+ActionView::Template::Error (undefined local variable or method `article' for #<#<Class:0x007f6e9d28dbe8>:0x007f6e9d492920>):
+    3: @article.each do |article|
+    4: %h2 = article.title
+    5: %p = Published at
+    6: = article.created_at.strftime('%d %b, %Y')
+    7: 
+    8: = link_to "New Article", new_article_path
+  app/views/articles/index.html.haml:6:in `_app_views_articles_index_html_haml__2385892682198171739_70056530969500'
+
+
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (15.8ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (6.4ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.0ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (58.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-23 15:56:51 +0000
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.3ms)[0m  SELECT "articles".* FROM "articles"  ORDER BY created_at DESC
+  Rendered articles/index.html.haml within layouts/application (27.9ms)
+Completed 500 Internal Server Error in 35ms
+
+ActionView::Template::Error (undefined local variable or method `article' for #<#<Class:0x007f6e9d28dbe8>:0x007f6e9c946508>):
+    3: @article.each do |article|
+    4: %h2 = article.title
+    5: %p = Published at
+    6: = article.created_at.strftime('%d %b, %Y')
+    7: 
+    8: = link_to "New Article", new_article_path
+  app/views/articles/index.html.haml:6:in `_app_views_articles_index_html_haml__2385892682198171739_70056525046620'
+
+
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (17.9ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (8.0ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.2ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (65.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-23 15:58:34 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.3ms)[0m  [1mSELECT "articles".* FROM "articles"  ORDER BY created_at DESC[0m
+  Rendered articles/index.html.haml within layouts/application (26.6ms)
+Completed 500 Internal Server Error in 39ms
+
+ActionView::Template::Error (undefined local variable or method `article' for #<#<Class:0x007f6e9d28dbe8>:0x007f6eafe348e0>):
+    3: @article.each do |article|
+    4: %h2 = article.title
+    5: %p = Published at
+    6: = article.created_at.strftime(Date.parse("2014-1-1").to_time.to_i)
+    7: 
+    8: = link_to "New Article", new_article_path
+  app/views/articles/index.html.haml:6:in `_app_views_articles_index_html_haml__2385892682198171739_70056686946080'
+
+
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (15.9ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (6.5ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.1ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (59.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-23 15:58:57 +0000
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.3ms)[0m  SELECT "articles".* FROM "articles"  ORDER BY created_at DESC
+  Rendered articles/index.html.haml within layouts/application (57.2ms)
+Completed 500 Internal Server Error in 69ms
+
+ActionView::Template::Error (undefined local variable or method `article' for #<#<Class:0x007f6e9d28dbe8>:0x007f6e9ccc44c8>):
+    3: @article.each do |article|
+    4: %h2 = article.title
+    5: %p = Published at
+    6: = article.created_at.(Date.parse("2014-1-1").to_time.to_i)
+    7: 
+    8: = link_to "New Article", new_article_path
+  app/views/articles/index.html.haml:6:in `_app_views_articles_index_html_haml__2385892682198171739_70056526869260'
+
+
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (16.2ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (7.7ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.1ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (62.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-23 15:59:15 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.3ms)[0m  [1mSELECT "articles".* FROM "articles"  ORDER BY created_at DESC[0m
+  Rendered articles/index.html.haml within layouts/application (38.7ms)
+Completed 500 Internal Server Error in 46ms
+
+ActionView::Template::Error (undefined local variable or method `article' for #<#<Class:0x007f6e9d28dbe8>:0x007f6e9d27b538>):
+    3: @article.each do |article|
+    4: %h2 = article.title
+    5: %p = Published at
+    6: = article.created_at.Date.parse("2014-1-1").to_time.to_i
+    7: 
+    8: = link_to "New Article", new_article_path
+  app/views/articles/index.html.haml:6:in `_app_views_articles_index_html_haml__2385892682198171739_70056529873720'
+
+
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (16.4ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (6.5ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.2ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (60.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-23 15:59:17 +0000
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.4ms)[0m  SELECT "articles".* FROM "articles"  ORDER BY created_at DESC
+  Rendered articles/index.html.haml within layouts/application (29.5ms)
+Completed 500 Internal Server Error in 37ms
+
+ActionView::Template::Error (undefined local variable or method `article' for #<#<Class:0x007f6e9d28dbe8>:0x007f6e9d6490e8>):
+    3: @article.each do |article|
+    4: %h2 = article.title
+    5: %p = Published at
+    6: = article.created_at.Date.parse("2014-1-1").to_time.to_i
+    7: 
+    8: = link_to "New Article", new_article_path
+  app/views/articles/index.html.haml:6:in `_app_views_articles_index_html_haml__2385892682198171739_70056529873720'
+
+
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (16.8ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (7.2ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.2ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (61.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-23 15:59:33 +0000
+Processing by ArticlesController#index as HTML
+  Rendered articles/index.html.haml within layouts/application (3.5ms)
+Completed 500 Internal Server Error in 10ms
+
+SyntaxError (/home/clive/Documents/LFA/LFA/app/views/articles/index.html.haml:7: syntax error, unexpected ')', expecting '('
+));}\n#{
+ ^
+/home/clive/Documents/LFA/LFA/app/views/articles/index.html.haml:9: syntax error, unexpected '}', expecting ')'
+));}\n", 0, false);::Haml::Util.h...
+    ^
+/home/clive/Documents/LFA/LFA/app/views/articles/index.html.haml:9: unterminated string meets end of file
+/home/clive/Documents/LFA/LFA/app/views/articles/index.html.haml:9: syntax error, unexpected end-of-input, expecting ')'):
+  app/views/articles/index.html.haml:7: syntax error, unexpected ')', expecting '('
+  app/views/articles/index.html.haml:9: syntax error, unexpected '}', expecting ')'
+  app/views/articles/index.html.haml:9: unterminated string meets end of file
+  app/views/articles/index.html.haml:9: syntax error, unexpected end-of-input, expecting ')'
+
+
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (30.7ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (8.3ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.2ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (77.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-23 16:01:39 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.3ms)[0m  [1mSELECT "articles".* FROM "articles"  ORDER BY created_at DESC[0m
+  Rendered articles/index.html.haml within layouts/application (31.3ms)
+Completed 500 Internal Server Error in 38ms
+
+ActionView::Template::Error (undefined local variable or method `article' for #<#<Class:0x007f6e9d28dbe8>:0x007f6e9406e348>):
+    3: @article.each do |article|
+    4: %h2 = article.title
+    5: %p = Published at
+    6: = article.created_at.strftime("%H:%M")
+    7: 
+    8: = link_to "New Article", new_article_path
+  app/views/articles/index.html.haml:6:in `_app_views_articles_index_html_haml__2385892682198171739_70056453267400'
+
+
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (16.8ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (7.0ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.3ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (62.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-23 16:02:11 +0000
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.3ms)[0m  SELECT "articles".* FROM "articles"  ORDER BY created_at DESC
+  Rendered articles/index.html.haml within layouts/application (30.7ms)
+Completed 500 Internal Server Error in 41ms
+
+ActionView::Template::Error (undefined local variable or method `articles' for #<#<Class:0x007f6e9d28dbe8>:0x007f6eb0148838>):
+    3: @article.each do |article|
+    4: %h2 = article.title
+    5: %p = Published at
+    6: = articles.created_at.strftime("%H:%M")
+    7: 
+    8: = link_to "New Article", new_article_path
+  app/views/articles/index.html.haml:6:in `_app_views_articles_index_html_haml__2385892682198171739_70056688565780'
+
+
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (16.3ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (6.8ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.2ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (60.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-23 16:04:48 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.3ms)[0m  [1mSELECT "articles".* FROM "articles"  ORDER BY created_at DESC[0m
+  Rendered articles/index.html.haml within layouts/application (28.7ms)
+Completed 500 Internal Server Error in 35ms
+
+ActionView::Template::Error (undefined local variable or method `article' for #<#<Class:0x007f6e9d28dbe8>:0x007f6eb1ccaac0>):
+    3: @article.each do |article|
+    4: %h2 = article.title
+    5: %p = Published at
+    6: = article.created_at.strftime("%H:%M")
+    7: 
+    8: = link_to "New Article", new_article_path
+  app/views/articles/index.html.haml:6:in `_app_views_articles_index_html_haml__2385892682198171739_70056703034720'
+
+
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (16.3ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (6.9ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.3ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (60.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-23 16:05:05 +0000
+Processing by ArticlesController#index as HTML
+  Rendered articles/index.html.haml within layouts/application (3.9ms)
+Completed 200 OK in 149ms (Views: 147.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-23 16:05:05 +0000
+
+
+Started GET "/assets/application-3fcb74b2a407843511ec971fdb2fd112.css?body=1" for 127.0.0.1 at 2015-02-23 16:05:05 +0000
+
+
+Started GET "/assets/articles-46c9a194bd0668e67d57241f94473dc8.js?body=1" for 127.0.0.1 at 2015-02-23 16:05:05 +0000
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-02-23 16:05:05 +0000
+
+
+Started GET "/assets/application-584e5ad092e1f250bb0d63bf12639a0e.js?body=1" for 127.0.0.1 at 2015-02-23 16:05:05 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-23 16:05:05 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-23 16:05:05 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-23 16:05:41 +0000
+Processing by ArticlesController#index as HTML
+  Rendered articles/index.html.haml within layouts/application (3.7ms)
+Completed 200 OK in 130ms (Views: 128.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-23 16:05:42 +0000
+
+
+Started GET "/assets/articles-46c9a194bd0668e67d57241f94473dc8.js?body=1" for 127.0.0.1 at 2015-02-23 16:05:42 +0000
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-02-23 16:05:42 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-23 16:05:42 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-23 16:05:42 +0000
+
+
+Started GET "/assets/application-3fcb74b2a407843511ec971fdb2fd112.css?body=1" for 127.0.0.1 at 2015-02-23 16:05:42 +0000
+
+
+Started GET "/assets/application-584e5ad092e1f250bb0d63bf12639a0e.js?body=1" for 127.0.0.1 at 2015-02-23 16:05:42 +0000
