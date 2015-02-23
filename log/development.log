@@ -694,3 +694,65 @@ Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 
 
 
 Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-22 23:07:23 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-23 14:50:59 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  Rendered articles/index.html.haml within layouts/application (4.4ms)
+Completed 200 OK in 484ms (Views: 447.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-23 14:51:00 +0000
+
+
+Started GET "/assets/application-3fcb74b2a407843511ec971fdb2fd112.css?body=1" for 127.0.0.1 at 2015-02-23 14:51:00 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-23 14:51:00 +0000
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-02-23 14:51:00 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-23 14:51:00 +0000
+
+
+Started GET "/assets/articles-46c9a194bd0668e67d57241f94473dc8.js?body=1" for 127.0.0.1 at 2015-02-23 14:51:00 +0000
+
+
+Started GET "/assets/application-584e5ad092e1f250bb0d63bf12639a0e.js?body=1" for 127.0.0.1 at 2015-02-23 14:51:00 +0000
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-02-23 14:51:54 +0000
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.haml (2.9ms)
+  Rendered articles/new.html.haml within layouts/application (84.0ms)
+Completed 200 OK in 246ms (Views: 214.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/articles-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-23 14:51:54 +0000
+
+
+Started GET "/assets/application-3fcb74b2a407843511ec971fdb2fd112.css?body=1" for 127.0.0.1 at 2015-02-23 14:51:54 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-23 14:51:54 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-23 14:51:54 +0000
+
+
+Started GET "/assets/articles-46c9a194bd0668e67d57241f94473dc8.js?body=1" for 127.0.0.1 at 2015-02-23 14:51:54 +0000
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-02-23 14:51:54 +0000
+
+
+Started GET "/assets/application-584e5ad092e1f250bb0d63bf12639a0e.js?body=1" for 127.0.0.1 at 2015-02-23 14:51:54 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-23 14:51:56 +0000
+Processing by ArticlesController#index as HTML
+  Rendered articles/index.html.haml within layouts/application (2.6ms)
+Completed 200 OK in 118ms (Views: 116.6ms | ActiveRecord: 0.0ms)
