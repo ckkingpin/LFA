@@ -1600,3 +1600,185 @@ ActionView::Template::Error (undefined local variable or method `article' for #<
   Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.9ms)
   Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.5ms)
   Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (62.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-23 20:54:07 +0000
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.4ms)[0m  SELECT "articles".* FROM "articles"  ORDER BY created_at DESC
+  Rendered articles/index.html.haml within layouts/application (37.2ms)
+Completed 500 Internal Server Error in 45ms
+
+ActionView::Template::Error (undefined local variable or method `article' for #<#<Class:0x007f3a5d663a48>:0x007f3a5d734be8>):
+     5: %p Published at
+     6: 
+     7: 
+     8: %p= truncate(article.content, length: 200)
+     9: 
+    10: = link_to "New Article", new_article_path
+  app/views/articles/index.html.haml:8:in `_app_views_articles_index_html_haml__909822702241348914_69944326199040'
+
+
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (16.5ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (6.6ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.2ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (61.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-23 20:54:29 +0000
+Processing by ArticlesController#index as HTML
+  Rendered articles/index.html.haml within layouts/application (2.8ms)
+Completed 200 OK in 137ms (Views: 135.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-23 20:54:30 +0000
+
+
+Started GET "/assets/application-3fcb74b2a407843511ec971fdb2fd112.css?body=1" for 127.0.0.1 at 2015-02-23 20:54:30 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-23 20:54:30 +0000
+
+
+Started GET "/assets/articles-46c9a194bd0668e67d57241f94473dc8.js?body=1" for 127.0.0.1 at 2015-02-23 20:54:30 +0000
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-02-23 20:54:30 +0000
+
+
+Started GET "/assets/application-584e5ad092e1f250bb0d63bf12639a0e.js?body=1" for 127.0.0.1 at 2015-02-23 20:54:30 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-23 20:54:30 +0000
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-02-23 20:54:43 +0000
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.haml (2.9ms)
+  Rendered articles/new.html.haml within layouts/application (9.2ms)
+Completed 200 OK in 140ms (Views: 131.6ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddUserIdToArticles (20150223210902)
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36m (0.8ms)[0m  [1mALTER TABLE "articles" ADD "user_id" integer[0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.4ms)[0m  [1mCREATE  INDEX "index_articles_on_user_id" ON "articles" ("user_id")[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150223210902"]]
+  [1m[36m (148.3ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.3ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_articles_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_articles_on_user_id' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[36mArticle Load (0.5ms)[0m  [1mSELECT  "articles".* FROM "articles"  ORDER BY "articles"."id" DESC LIMIT 1[0m
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-02-23 21:23:37 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#new as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered articles/_form.html.haml (2.9ms)
+  Rendered articles/new.html.haml within layouts/application (7.4ms)
+Completed 200 OK in 269ms (Views: 138.0ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/articles-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-23 21:23:38 +0000
+
+
+Started GET "/assets/application-3fcb74b2a407843511ec971fdb2fd112.css?body=1" for 127.0.0.1 at 2015-02-23 21:23:38 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-23 21:23:38 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-23 21:23:38 +0000
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-02-23 21:23:38 +0000
+
+
+Started GET "/assets/articles-46c9a194bd0668e67d57241f94473dc8.js?body=1" for 127.0.0.1 at 2015-02-23 21:23:38 +0000
+
+
+Started GET "/assets/application-584e5ad092e1f250bb0d63bf12639a0e.js?body=1" for 127.0.0.1 at 2015-02-23 21:23:38 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-23 21:23:39 +0000
+Processing by ArticlesController#index as HTML
+  Rendered articles/index.html.haml within layouts/application (2.8ms)
+Completed 200 OK in 133ms (Views: 131.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-02-23 21:23:42 +0000
+Processing by ArticlesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered articles/_form.html.haml (0.4ms)
+  Rendered articles/new.html.haml within layouts/application (3.7ms)
+Completed 200 OK in 149ms (Views: 143.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-02-23 21:24:14 +0000
+Processing by ArticlesController#new as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-02-23 21:24:14 +0000
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (22.9ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/devise-3.4.1/app/views/devise/sessions/new.html.erb within layouts/application (82.2ms)
+Completed 200 OK in 304ms (Views: 301.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-23 21:24:15 +0000
+
+
+Started GET "/assets/application-3fcb74b2a407843511ec971fdb2fd112.css?body=1" for 127.0.0.1 at 2015-02-23 21:24:15 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-23 21:24:15 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-23 21:24:15 +0000
+
+
+Started GET "/assets/application-584e5ad092e1f250bb0d63bf12639a0e.js?body=1" for 127.0.0.1 at 2015-02-23 21:24:15 +0000
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-02-23 21:24:15 +0000
+
+
+Started GET "/assets/articles-46c9a194bd0668e67d57241f94473dc8.js?body=1" for 127.0.0.1 at 2015-02-23 21:24:15 +0000
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-02-23 21:24:26 +0000
+Processing by ArticlesController#new as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-02-23 21:24:26 +0000
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (10.8ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/devise-3.4.1/app/views/devise/sessions/new.html.erb within layouts/application (21.7ms)
+Completed 200 OK in 157ms (Views: 155.3ms | ActiveRecord: 0.0ms)
