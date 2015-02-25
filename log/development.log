@@ -3953,3 +3953,586 @@ Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 
 
 
 Started GET "/assets/application-584e5ad092e1f250bb0d63bf12639a0e.js?body=1" for 127.0.0.1 at 2015-02-25 20:17:09 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-25 20:53:24 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (8.1ms)[0m  [1mSELECT "articles".* FROM "articles"  ORDER BY created_at DESC[0m
+  Rendered articles/index.html.haml within layouts/application (12.0ms)
+Completed 200 OK in 172ms (Views: 146.3ms | ActiveRecord: 8.4ms)
+
+
+Started GET "/assets/articles-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-25 20:53:24 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-25 20:53:24 +0000
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-02-25 20:53:24 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-25 20:53:24 +0000
+
+
+Started GET "/assets/articles-46c9a194bd0668e67d57241f94473dc8.js?body=1" for 127.0.0.1 at 2015-02-25 20:53:24 +0000
+
+
+Started GET "/assets/application-584e5ad092e1f250bb0d63bf12639a0e.js?body=1" for 127.0.0.1 at 2015-02-25 20:53:24 +0000
+
+
+Started GET "/assets/application-3d454e3fe09bc4ef3823962eff5a9738.css?body=1" for 127.0.0.1 at 2015-02-25 20:53:24 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-25 20:53:26 +0000
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.3ms)[0m  SELECT "articles".* FROM "articles"  ORDER BY created_at DESC
+  Rendered articles/index.html.haml within layouts/application (3.1ms)
+Completed 200 OK in 167ms (Views: 165.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-25 20:53:26 +0000
+
+
+Started GET "/assets/articles-46c9a194bd0668e67d57241f94473dc8.js?body=1" for 127.0.0.1 at 2015-02-25 20:53:26 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-25 20:53:26 +0000
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-02-25 20:53:26 +0000
+
+
+Started GET "/assets/application-584e5ad092e1f250bb0d63bf12639a0e.js?body=1" for 127.0.0.1 at 2015-02-25 20:53:26 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-25 20:54:11 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.4ms)[0m  [1mSELECT "articles".* FROM "articles"  ORDER BY created_at DESC[0m
+  Rendered articles/index.html.haml within layouts/application (1.5ms)
+Completed 200 OK in 134ms (Views: 132.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/articles-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-25 20:54:11 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-25 20:54:11 +0000
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-02-25 20:54:11 +0000
+
+
+Started GET "/assets/articles-46c9a194bd0668e67d57241f94473dc8.js?body=1" for 127.0.0.1 at 2015-02-25 20:54:11 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-25 20:54:11 +0000
+
+
+Started GET "/assets/application-584e5ad092e1f250bb0d63bf12639a0e.js?body=1" for 127.0.0.1 at 2015-02-25 20:54:11 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-25 20:54:18 +0000
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.3ms)[0m  SELECT "articles".* FROM "articles"  ORDER BY created_at DESC
+  Rendered articles/index.html.haml within layouts/application (2.9ms)
+Completed 200 OK in 180ms (Views: 178.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/articles-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-25 20:54:18 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-25 20:54:18 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-25 20:54:18 +0000
+
+
+Started GET "/assets/articles-46c9a194bd0668e67d57241f94473dc8.js?body=1" for 127.0.0.1 at 2015-02-25 20:54:18 +0000
+
+
+Started GET "/assets/application-584e5ad092e1f250bb0d63bf12639a0e.js?body=1" for 127.0.0.1 at 2015-02-25 20:54:18 +0000
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-02-25 20:54:18 +0000
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-02-25 20:54:25 +0000
+Processing by ArticlesController#new as HTML
+Completed 401 Unauthorized in 31ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-02-25 20:54:25 +0000
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (19.3ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/devise-3.4.1/app/views/devise/sessions/new.html.erb within layouts/application (101.2ms)
+Completed 200 OK in 315ms (Views: 248.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/articles-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-25 20:54:25 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-25 20:54:25 +0000
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-02-25 20:54:25 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-25 20:54:25 +0000
+
+
+Started GET "/assets/articles-46c9a194bd0668e67d57241f94473dc8.js?body=1" for 127.0.0.1 at 2015-02-25 20:54:25 +0000
+
+
+Started GET "/assets/application-584e5ad092e1f250bb0d63bf12639a0e.js?body=1" for 127.0.0.1 at 2015-02-25 20:54:25 +0000
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2015-02-25 20:54:44 +0000
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DYYMnVVANrqX+ADMmtoqT82juywhBsfpe4+CERleUjLn31pFOOoy1DQ92ZjlvPUSlcVdly+OIL2asC6nG6I4HQ==", "user"=>{"email"=>"ckkingpin@msn.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "ckkingpin@msn.com"]]
+  [1m[35m (0.4ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mUPDATE "users" SET "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", "2015-02-25 20:54:45.006035"], ["sign_in_count", 2], ["updated_at", "2015-02-25 20:54:45.009079"], ["id", 1]]
+  [1m[35m (102.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/articles/new
+Completed 302 Found in 545ms (ActiveRecord: 103.8ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-02-25 20:54:45 +0000
+Processing by ArticlesController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered articles/_form.html.haml (3.3ms)
+  Rendered articles/new.html.haml within layouts/application (8.3ms)
+Completed 200 OK in 213ms (Views: 144.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/articles-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-25 20:54:45 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-25 20:54:45 +0000
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-02-25 20:54:45 +0000
+
+
+Started GET "/assets/application-584e5ad092e1f250bb0d63bf12639a0e.js?body=1" for 127.0.0.1 at 2015-02-25 20:54:45 +0000
+
+
+Started GET "/assets/articles-46c9a194bd0668e67d57241f94473dc8.js?body=1" for 127.0.0.1 at 2015-02-25 20:54:45 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-25 20:54:45 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-25 20:54:59 +0000
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.3ms)[0m  SELECT "articles".* FROM "articles"  ORDER BY created_at DESC
+  Rendered articles/index.html.haml within layouts/application (1.5ms)
+Completed 200 OK in 123ms (Views: 121.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-25 20:54:59 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-25 20:54:59 +0000
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-02-25 20:54:59 +0000
+
+
+Started GET "/assets/articles-46c9a194bd0668e67d57241f94473dc8.js?body=1" for 127.0.0.1 at 2015-02-25 20:54:59 +0000
+
+
+Started GET "/assets/application-584e5ad092e1f250bb0d63bf12639a0e.js?body=1" for 127.0.0.1 at 2015-02-25 20:54:59 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-25 20:55:01 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.3ms)[0m  [1mSELECT "articles".* FROM "articles"  ORDER BY created_at DESC[0m
+  Rendered articles/index.html.haml within layouts/application (1.1ms)
+Completed 200 OK in 142ms (Views: 140.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-25 20:55:02 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-25 20:55:02 +0000
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-02-25 20:55:02 +0000
+
+
+Started GET "/assets/articles-46c9a194bd0668e67d57241f94473dc8.js?body=1" for 127.0.0.1 at 2015-02-25 20:55:02 +0000
+
+
+Started GET "/assets/application-584e5ad092e1f250bb0d63bf12639a0e.js?body=1" for 127.0.0.1 at 2015-02-25 20:55:02 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-25 20:55:03 +0000
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.3ms)[0m  SELECT "articles".* FROM "articles"  ORDER BY created_at DESC
+  Rendered articles/index.html.haml within layouts/application (1.3ms)
+Completed 200 OK in 123ms (Views: 121.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-25 20:55:03 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-25 20:55:03 +0000
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-02-25 20:55:03 +0000
+
+
+Started GET "/assets/articles-46c9a194bd0668e67d57241f94473dc8.js?body=1" for 127.0.0.1 at 2015-02-25 20:55:03 +0000
+
+
+Started GET "/assets/application-584e5ad092e1f250bb0d63bf12639a0e.js?body=1" for 127.0.0.1 at 2015-02-25 20:55:03 +0000
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-02-25 20:55:05 +0000
+Processing by ArticlesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered articles/_form.html.haml (3.3ms)
+  Rendered articles/new.html.haml within layouts/application (9.1ms)
+Completed 200 OK in 169ms (Views: 163.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-02-25 20:55:05 +0000
+Processing by ArticlesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered articles/_form.html.haml (0.4ms)
+  Rendered articles/new.html.haml within layouts/application (5.4ms)
+Completed 200 OK in 150ms (Views: 139.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-25 20:55:05 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-25 20:55:05 +0000
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-02-25 20:55:05 +0000
+
+
+Started GET "/assets/application-584e5ad092e1f250bb0d63bf12639a0e.js?body=1" for 127.0.0.1 at 2015-02-25 20:55:05 +0000
+
+
+Started GET "/assets/articles-46c9a194bd0668e67d57241f94473dc8.js?body=1" for 127.0.0.1 at 2015-02-25 20:55:05 +0000
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-02-25 20:55:05 +0000
+Processing by ArticlesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered articles/_form.html.haml (0.4ms)
+  Rendered articles/new.html.haml within layouts/application (3.8ms)
+Completed 200 OK in 151ms (Views: 133.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-25 20:55:05 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-25 20:55:05 +0000
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-02-25 20:55:05 +0000
+
+
+Started GET "/assets/application-584e5ad092e1f250bb0d63bf12639a0e.js?body=1" for 127.0.0.1 at 2015-02-25 20:55:05 +0000
+
+
+Started GET "/assets/articles-46c9a194bd0668e67d57241f94473dc8.js?body=1" for 127.0.0.1 at 2015-02-25 20:55:05 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-25 20:55:05 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-25 20:55:05 +0000
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-02-25 20:55:05 +0000
+
+
+Started GET "/assets/articles-46c9a194bd0668e67d57241f94473dc8.js?body=1" for 127.0.0.1 at 2015-02-25 20:55:05 +0000
+
+
+Started GET "/assets/application-584e5ad092e1f250bb0d63bf12639a0e.js?body=1" for 127.0.0.1 at 2015-02-25 20:55:05 +0000
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-25 20:55:11 +0000
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-25 20:55:11 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.3ms)[0m  [1mSELECT "articles".* FROM "articles"  ORDER BY created_at DESC[0m
+  Rendered articles/index.html.haml within layouts/application (1.3ms)
+Completed 200 OK in 124ms (Views: 121.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-25 20:55:11 +0000
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-02-25 20:55:11 +0000
+
+
+Started GET "/assets/application-584e5ad092e1f250bb0d63bf12639a0e.js?body=1" for 127.0.0.1 at 2015-02-25 20:55:11 +0000
+
+
+Started GET "/assets/articles-46c9a194bd0668e67d57241f94473dc8.js?body=1" for 127.0.0.1 at 2015-02-25 20:55:11 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-25 20:55:11 +0000
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-02-25 20:59:18 +0000
+Processing by ArticlesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered articles/_form.html.haml (0.4ms)
+  Rendered articles/new.html.haml within layouts/application (4.1ms)
+Completed 200 OK in 146ms (Views: 140.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/articles-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-25 20:59:18 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-25 20:59:18 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-25 20:59:19 +0000
+
+
+Started GET "/assets/articles-46c9a194bd0668e67d57241f94473dc8.js?body=1" for 127.0.0.1 at 2015-02-25 20:59:19 +0000
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-02-25 20:59:19 +0000
+
+
+Started GET "/assets/application-584e5ad092e1f250bb0d63bf12639a0e.js?body=1" for 127.0.0.1 at 2015-02-25 20:59:19 +0000
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-02-25 21:08:07 +0000
+Processing by ArticlesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered articles/_form.html.haml (0.4ms)
+  Rendered articles/new.html.haml within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 3446ms
+
+ActionView::Template::Error (/home/clive/Documents/LFA/LFA/app/assets/stylesheets/application.css has already been required):
+    2: %html
+    3: %head
+    4: 	%title LFA By T. Kanyepi
+    5: 	= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true
+    6: 	= javascript_include_tag 'application', 'data-turbolinks-track' => true
+    7: 	= csrf_meta_tags
+    8: %body
+  app/views/layouts/application.html.haml:5:in `_app_views_layouts_application_html_haml___2021208410676136681_70330694906180'
+
+
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (22.6ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (8.5ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.1ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (77.2ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-02-25 21:08:48 +0000
+Processing by ArticlesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered articles/_form.html.haml (0.6ms)
+  Rendered articles/new.html.haml within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 3000ms
+
+ActionView::Template::Error (/home/clive/Documents/LFA/LFA/app/assets/stylesheets/application.css has already been required):
+    2: %html
+    3: %head
+    4: 	%title LFA By T. Kanyepi
+    5: 	= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true
+    6: 	= javascript_include_tag 'application', 'data-turbolinks-track' => true
+    7: 	= csrf_meta_tags
+    8: %body
+  app/views/layouts/application.html.haml:5:in `_app_views_layouts_application_html_haml___2021208410676136681_70330694906180'
+
+
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (20.1ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (8.0ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.9ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (65.9ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-02-25 21:09:10 +0000
+Processing by ArticlesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered articles/_form.html.haml (0.3ms)
+  Rendered articles/new.html.haml within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 3018ms
+
+ActionView::Template::Error (/home/clive/Documents/LFA/LFA/app/assets/stylesheets/application.css has already been required):
+    2: %html
+    3: %head
+    4: 	%title LFA By T. Kanyepi
+    5: 	= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true
+    6: 	= javascript_include_tag 'application', 'data-turbolinks-track' => true
+    7: 	= csrf_meta_tags
+    8: %body
+  app/views/layouts/application.html.haml:5:in `_app_views_layouts_application_html_haml___2021208410676136681_70330694906180'
+
+
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (25.8ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (9.5ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.1ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (73.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-25 21:09:19 +0000
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.3ms)[0m  SELECT "articles".* FROM "articles"  ORDER BY created_at DESC
+  Rendered articles/index.html.haml within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 3290ms
+
+ActionView::Template::Error (/home/clive/Documents/LFA/LFA/app/assets/stylesheets/application.css has already been required):
+    2: %html
+    3: %head
+    4: 	%title LFA By T. Kanyepi
+    5: 	= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true
+    6: 	= javascript_include_tag 'application', 'data-turbolinks-track' => true
+    7: 	= csrf_meta_tags
+    8: %body
+  app/views/layouts/application.html.haml:5:in `_app_views_layouts_application_html_haml___2021208410676136681_70330694906180'
+
+
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (21.2ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (7.8ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.1ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (67.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-25 21:09:48 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.3ms)[0m  [1mSELECT "articles".* FROM "articles"  ORDER BY created_at DESC[0m
+  Rendered articles/index.html.haml within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 3166ms
+
+ActionView::Template::Error (/home/clive/Documents/LFA/LFA/app/assets/stylesheets/application.css has already been required):
+    2: %html
+    3: %head
+    4: 	%title LFA By T. Kanyepi
+    5: 	= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true
+    6: 	= javascript_include_tag 'application', 'data-turbolinks-track' => true
+    7: 	= csrf_meta_tags
+    8: %body
+  app/views/layouts/application.html.haml:5:in `_app_views_layouts_application_html_haml___2021208410676136681_70330694906180'
+
+
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (21.3ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (8.3ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.1ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (67.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-25 21:10:21 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.4ms)[0m  SELECT "articles".* FROM "articles"  ORDER BY created_at DESC
+  Rendered articles/index.html.haml within layouts/application (10.0ms)
+Completed 500 Internal Server Error in 3686ms
+
+ActionView::Template::Error (/home/clive/Documents/LFA/LFA/app/assets/stylesheets/application.css has already been required):
+    2: %html
+    3: %head
+    4: 	%title LFA By T. Kanyepi
+    5: 	= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true
+    6: 	= javascript_include_tag 'application', 'data-turbolinks-track' => true
+    7: 	= csrf_meta_tags
+    8: %body
+  app/views/layouts/application.html.haml:5:in `_app_views_layouts_application_html_haml__3787805417767652563_70233387073980'
+
+
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (26.1ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (9.9ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.9ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.8ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (76.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-25 21:12:34 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.4ms)[0m  SELECT "articles".* FROM "articles"  ORDER BY created_at DESC
+  Rendered articles/index.html.haml within layouts/application (7.1ms)
+Completed 500 Internal Server Error in 3443ms
+
+ActionView::Template::Error (/home/clive/Documents/LFA/LFA/app/assets/stylesheets/application.css has already been required):
+    2: %html
+    3: %head
+    4: 	%title LFA By T. Kanyepi
+    5: 	= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true
+    6: 	= javascript_include_tag 'application', 'data-turbolinks-track' => true
+    7: 	= csrf_meta_tags
+    8: %body
+  app/views/layouts/application.html.haml:5:in `_app_views_layouts_application_html_haml___2471922510204120069_70220334413520'
+
+
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (21.2ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (8.7ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.2ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (69.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-25 21:12:46 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.3ms)[0m  [1mSELECT "articles".* FROM "articles"  ORDER BY created_at DESC[0m
+  Rendered articles/index.html.haml within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 3352ms
+
+ActionView::Template::Error (/home/clive/Documents/LFA/LFA/app/assets/stylesheets/application.css has already been required):
+    2: %html
+    3: %head
+    4: 	%title LFA By T. Kanyepi
+    5: 	= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true
+    6: 	= javascript_include_tag 'application', 'data-turbolinks-track' => true
+    7: 	= csrf_meta_tags
+    8: %body
+  app/views/layouts/application.html.haml:5:in `_app_views_layouts_application_html_haml___2471922510204120069_70220334413520'
+
+
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (22.2ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (8.4ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.2ms)
+  Rendered /home/clive/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (69.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-25 21:13:57 +0000
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.4ms)[0m  SELECT "articles".* FROM "articles"  ORDER BY created_at DESC
+  Rendered articles/index.html.haml within layouts/application (2.5ms)
+Completed 200 OK in 412ms (Views: 409.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/articles-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-25 21:13:57 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-25 21:13:58 +0000
+
+
+Started GET "/assets/articles-46c9a194bd0668e67d57241f94473dc8.js?body=1" for 127.0.0.1 at 2015-02-25 21:13:58 +0000
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-02-25 21:13:58 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-25 21:13:58 +0000
+
+
+Started GET "/assets/application-584e5ad092e1f250bb0d63bf12639a0e.js?body=1" for 127.0.0.1 at 2015-02-25 21:13:58 +0000
+
+
+Started GET "/assets/application-3fcb74b2a407843511ec971fdb2fd112.css?body=1" for 127.0.0.1 at 2015-02-25 21:13:58 +0000
