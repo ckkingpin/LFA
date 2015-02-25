@@ -47,5 +47,7 @@ group :development, :test do
   gem 'simple_form', '~> 3.1.0'
   gem 'execjs'
   gem 'therubyracer'
+  gem 'less-rails-bootstrap'
+
 end
 
