@@ -48,6 +48,7 @@ group :development, :test do
   gem 'execjs'
   gem 'therubyracer'
   gem 'less-rails-bootstrap'
+  gem "haml-rails"
 
 end
 

@@ -21,3 +21,5 @@ User.count > provides you the number of users registered
 
 rake routes > shows all routes on db
 
+gem list > lists the gems that are installed.
+

@@ -17,8 +17,12 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-ul 
+body {padding-top: 60px;}
 
-{
-list-style: none;
-}
+section {overflow: auto;}
+
+textarea {resize: vertical;}
+
+.center {text-align: center;}
+
+.center h1 {margin-bottom: 10px;}

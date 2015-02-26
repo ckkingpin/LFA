@@ -2,8 +2,12 @@
 
 - @articles.each do |article|
   %h2= link_to article.title, article
-  %p Published at
-  = articles.created_at.strftime('%b %d, %Y')
+  
+  %p Published at:
+  - 
+
+  
+  
   %p= truncate(article.content, length: 200)
 
   

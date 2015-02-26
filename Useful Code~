@@ -13,3 +13,11 @@ git merge upstream/master
 git fetch upstream
 git checkout master
 
+CHECKING HOW MANY USERS ARE REGISTERED
+
+rails c > brings up console
+User.connection > makes a connection to the db
+User.count > provides you the number of users registered
+
+rake routes > shows all routes on db
+
