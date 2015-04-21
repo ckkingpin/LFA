@@ -1,5 +1,14 @@
 = simple_form_for @article do |f|
-  = f.collection_select :category_id, Category.all, :id, :name, { promt: "Choose a Category" } 
+  / - if @article.category_ids.present?
+  /   = f.input :category_ids, label: 'Categories', input_html: { class: 'select-categories', value: "#{@article.categories.pluck(:name).join(',')}"}
+  / - else
+  /   = f.input :category_ids, label: 'Categories', input_html: { class: 'select-categories'}
+  = f.input :category_ids, label: 'Categories', input_html: { class: 'select-categories'}
   = f.input :title
-  = f.input :content
-  = f.submit
+  %label Content
+  #resizable
+    %pre#editor
+  %p
+  = f.text_area :content
+  = f.submit class: 'btn btn-success submit-article'
+  %p

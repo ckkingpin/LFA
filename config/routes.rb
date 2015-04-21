@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  devise_for :users
+  mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
+  devise_for :users, :controllers => { :registrations => "users/registrations" }
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -54,6 +55,15 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  get '/contacts' => 'static_pages#contacts'
+  get '/about' => 'static_pages#about'
   resources :articles
+  resources :categories do
+    collection do
+      get :autocomplete
+      get :add_category
+      get :categories_names
+    end
+  end
   root 'articles#index'
 end

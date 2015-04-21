@@ -1,0 +1,5 @@
+.navbar.navbar-default.navbar-fixed-bottom
+  .container
+    %p.navbar-text.pull-left LFA By Tendai Kanyepi
+    - if current_user && current_user.student?
+      %a.navbar-button.btn-danger.btn-lg.btn.pull-right{href:"mailto:#{tutor_emails}"} Contact The Tutor

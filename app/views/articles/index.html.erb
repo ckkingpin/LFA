@@ -1,0 +1,13 @@
+
+
+- for articles.each do |article|
+  %h3= link_to article.title, article
+  
+  <%p= Published at: t.now.strftime("%m/%d/%Y") %>
+  
+
+  
+  
+  %p= truncate(article.content, length: 200)
+
+  

@@ -1,0 +1,40 @@
+#editor {
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin-bottom: 0;
+}
+
+#editor-preview {
+  height: 250px;
+}
+
+.panel-heading {
+  h3 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  p {
+    font-size: 60%;
+  }
+}
+
+#resizable {
+  height: 250px;
+  padding: 5px;
+}
+
+.ui-resizable {
+  min-height: 100px;
+  min-width: 100px;
+}
+
+.label {
+  a {
+    color: white !important;
+    text-decoration: none !important;
+  }
+}

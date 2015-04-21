@@ -1,13 +1,9 @@
-
-
 - @articles.each do |article|
-  %h3= link_to article.title, article
-  
-  %p Published at =article.created_at.strftime('%b %d, %Y')
-  
-
-  
-  
-  %p= truncate(article.content, length: 200)
-
-  
+  .panel.panel-default
+    .panel-heading
+      %h3
+        =link_to article.title, article
+        %p.pull-right= "Published at: #{article.updated_at.strftime('%m/%d/%Y')}"
+    .panel-body
+      %p= truncate(article.content.html_safe, length: 200)
+      = render 'shared/categories_list', article: article

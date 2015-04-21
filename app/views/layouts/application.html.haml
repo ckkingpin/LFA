@@ -1,67 +1,21 @@
 !!!
 %html
-%head
-%meta{:name => "viewport", :content => "width=device-width, initial-scale=1, maximum-scale=1"}
-	
-	%title LFA By T. Kanyepi
-	= stylesheet_link_tag 'application', {media: 'all', 'data-turbolinks-track' => true}
-	= stylesheet_link_tag 'application', {media: 'all', 'data-turbolinks-track' => true}
-	= javascript_include_tag 'application', 'data-turbolinks-track' => true
-	= csrf_meta_tags
+  %head
+    %meta{:name => "viewport", :content => "width=device-width, initial-scale=1, maximum-scale=1"}
+    %title LFA By T. Kanyepi
+    = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true
+    %link{href:'http://fonts.googleapis.com/css?family=Bangers', rel:'stylesheet', type:'text/css'}
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = javascript_include_tag '/ace/src-noconflict/ace', 'data-turbolinks-track' => true
+    = csrf_meta_tags
 
-	<link href='http://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
-
-<nav class="navbar navbar-default navbar-fixed-top">
-<div class="container">
-<div class="navbar-header">
-<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-<span class="sr-only">Toggle navigation</span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-</button>
-<a class="navbar-brand" href="/">LFA</a>
-</div>
-<div id="navbar" class="collapse navbar-collapse">
-<ul class="nav navbar-nav">
-<li class="active"><a href="/">Home</a></li>
-<li><a href="#about">About</a></li>
-<li><a href="#contact">Contact</a></li>
-<li><a href="/users/sign_up">Register</a></li>
-<li class="dropdown">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Users <span class="caret"></span></a>
-<ul class="dropdown-menu" role="menu">
-<li><a href="/articles/new">Create</a></li>
-<li><a href="#">Edit</a></li>
-<li class="divider"></li>
-<li class="dropdown-header">User Options</li>
-<li><a href="/users/sign_in">Sign In</a></li>
-<li><a href="/users/sign_out">Sign Out</a></li>
-</ul>
-</li>
-</ul>
-</div><!--/.nav-collapse -->
-</div>
-</nav>
-	
-%body
-
-
-
-<div class="container">
-.row
-.col-md-4
-= yield
-.col-md-4
-
-
-
-<div class="navbar navbar-default navbar-fixed-bottom">
-
-<div class="container">
-
-<p class ="navbar-text pull-left">LFA By Tendai Kanyepi</p>
-<a class ="navbar-button btn-danger btn-lg btn pull-right">Contact The Tutor</a>
-</div>
-
-</div>
+  %body
+    = render 'layouts/navbar'
+    .container
+      .row
+        - flash.each do |name, msg|
+          = content_tag :div, class: (name == "notice" ? "alert alert-dismissable alert-success" : "alert alert-dismissable alert-danger") do
+            %button{type:"button", class:"close", "data-dismiss"=>"alert"} ×
+            = msg
+        = yield
+    = render 'layouts/navbar_bottom'
