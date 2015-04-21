@@ -49,6 +49,7 @@ group :development, :test do
   gem 'therubyracer'
   gem 'less-rails-bootstrap'
   gem "haml-rails"
+  gem 'bootstrap', '~> 0.0.1'
 
 end
 
